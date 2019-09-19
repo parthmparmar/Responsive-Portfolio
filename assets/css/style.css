@@ -17,7 +17,7 @@ header{
     background-color: #ffffff ;
     float:left; 
     margin-left: -20px;
-    width: 110%;
+    width: 1450px;
     margin-bottom: 40px;
     border-bottom: 2px solid #cccccc;
     margin-top: -20px;
@@ -26,7 +26,6 @@ header{
 }
 
 nav {
-    float: left;
     width: 1002px;
     float: left;
     margin-left: 180px;
@@ -197,15 +196,27 @@ textarea:focus {
         margin-left: 50px;
         width: 655px;
     }
+    .port {
+        width: 700px;
+    }
     nav {
         margin-left: 70px;
         width: 690px;
     }
+    header {
+        width: 980px;
+    }
 }
 @media screen and (max-width:768px) {
+    header {
+        width: 768px;
+    }
     article {
         margin-left: 50px;
         width: 530px;
+    }
+    .port {
+        width: 580px;
     }
     nav {
         margin-left: 70px;
@@ -214,31 +225,38 @@ textarea:focus {
 
     figure {
         margin-left: 10px;
-        margin-right: 10px;
+        margin-right:10px;
     }
+
 }
 @media screen and (max-width:640px) {
     article {
         margin-left: 30px;
         width: 470px;
     }
+    header {
+        width: 700px;
+    }
     nav {
-        margin-left: 0px;
+        margin-left: 10px;
         width: 620px;
     }
     h1 {
         width: 640px;
-        padding-left: 10px;
+        padding-left: 20px;
         
     }
     .nav_link {
         clear: both;
+        float: none;
         width: 640px;
         padding: 10px;
+        margin-top: 20px;
     }
-
+    .port {
+        width: 500px;
+    }
     figure {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 150px;
     }
 }
